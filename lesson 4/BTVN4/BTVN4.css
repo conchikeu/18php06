@@ -1,0 +1,160 @@
+@media screen and (max-width: 1200px){
+	#action{
+		width: 60%;
+	}
+	#feature{
+		width: 60%;
+	}
+	#hero{
+		width: 60%;
+	}
+}
+@media screen and (max-width: 768px){
+	#action{
+	float: left;		
+	border: 2px solid red;
+	width: 40%;		
+}	
+	#feature
+	{
+	float: left;
+	border: 2px solid red;
+	width: 200%;
+	 }
+	#hero	{
+	float: left;
+	border: 2px solid red;
+	width: 40%;
+	}
+	#ads{
+	background: blue;
+    width: 73.6%;
+    height: 161px;
+    text-align: center;
+    line-height: 161px;
+    margin-left: 9.5%;
+    margin-top: 3.8%;
+    float: left;
+
+	}
+}
+body{
+	padding: 80px;
+	background-image: linear-gradient(pink, blue);
+	height: 1280px;
+	width: 720px;
+	margin: auto;
+}
+#brand{
+	background: blue;
+	float: left;
+	width: 25%;
+	height: 70px;
+	text-align: center;
+	line-height: 70px;
+	margin-left: 1%;
+}
+#global{
+	background: blue;
+	width: 45%;
+	float: left;
+	height: 70px;
+	text-align: center;
+	line-height: 70px;
+	margin-left: 1%;
+}
+#tools{
+	background: blue;
+	width: 25%;
+	height: 70px;
+	text-align: center;
+	line-height: 70px;
+	margin-left: 73.5%;
+}
+#header{
+	font-weight: bold;
+	font-size: 20px;
+	padding-bottom: 4px;
+}
+#mainheader{
+	background: lightblue;
+	height: 107px;
+}
+/*--------------------------------------------*/
+#action{
+	background: blue;
+	float: left;
+	width: 61%;
+	height: 123px;
+	text-align: center;
+	line-height: 123px;
+	margin-left: 1%;
+}
+#feauture{
+	background: blue;
+	width: 36%;
+	float: left;
+	height: 123px;
+	text-align: center;
+	line-height: 123px;
+	margin-left: 1%;
+}
+#hero{
+	font-weight: bold;
+	font-size: 20px;
+	padding-bottom: 4px;
+}
+nav{
+	background: lightblue;
+	height: 160px;
+	margin-top: 15px;
+	width: 72.3%;
+}
+#ads{
+	background: blue;
+	width: 26.6%;
+	height: 161px;
+	text-align: center;
+	line-height: 161px;
+	margin-left: 73.5%;
+	margin-top: -22.2%;
+}
+/*----------------------------------------*/
+#lesting{
+	background: blue;
+	float: left;
+	width: 61%;
+	height: 123px;
+	text-align: center;
+	line-height: 123px;
+	margin-left: 1%;
+}
+#article{
+	background: blue;
+	width: 36%;
+	float: left;
+	height: 123px;
+	text-align: center;
+	line-height: 123px;
+	margin-left: 1%;
+}
+#Body{
+	font-weight: bold;
+	font-size: 20px;
+	padding-bottom: 4px;
+}
+article{
+	background: lightblue;
+	height: 160px;
+	margin-top: 15px;
+	width: 72.3%;
+}
+#sidebar{
+	background: blue;
+	width: 25%;
+	height: 161px;
+	text-align: center;
+	line-height: 161px;
+	margin-left: 73.5%;
+	margin-top: -22.2%;
+}
