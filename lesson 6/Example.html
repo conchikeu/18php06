@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form</title>
+</head>
+<style>
+	*{
+		padding: 0;
+		margin: 0;
+	}
+	body{
+		padding: 50px;
+	}
+	#login{
+		border: 2px solid black;
+		width: 13%;
+		padding: 20px;
+	}
+	#password, #submit, #lost{
+		margin-top: 5%;
+	}
+	h1{
+		padding-bottom: 15px;
+	}
+	#article{
+		margin-left: 18%;
+		margin-top: -12.8%;
+	}
+	#boder{
+		border: 2px solid black;
+		padding: 15px;
+		width: 38%;
+	}
+	#lastname{
+		margin-left: 57%;
+		margin-top: -10.6%;
+		padding-top: 5px;
+	}
+	#firstname{
+		padding-top: 15px;
+	}
+	#password2, #address{
+		padding-top: 15px;
+	}
+	#single{
+		padding-top: 37px;
+	}
+</style>
+<body>
+	<form name="register" action="https://fb.com" method="post">
+		<nav>
+			<h1>Login</h1>
+			<div id="login">
+				<p id="username">Username or email address*</p>
+				<p><input type="text" name="email" placeholder="Your email"></p>
+				
+				<p id="password">Password*</p>
+				<p><input type="password" name="password" placeholder="Your password"></p>
+				<p id="submit">
+					<input type="submit" name="submit" value="LOGIN">
+					<input type="checkbox" name="checkbox"> Remember me!
+				</p>
+				<p id="lost"><a href="https://fb.com" "Lost password">Lost password!</a></p>
+			</div>
+		</nav>
+		<article id="article">
+			<h1 id="register">Register</h1>
+			<div id="boder">
+				<p>Phone
+					<select name="Reion">
+						<option value="+84">+84</option>
+						<option value="+1">+1</option>
+						<option value="+36">+36</option>
+					</select>
+					<input type="text" name="phonenumber" placeholder="(935) 67891">
+				</p>
+				<div id="firstname">
+					<p>First Name*</p>
+					<p><input type="text" name="firstname"></p>	
+				</div>
+				
+				<div id="lastname">
+					<p>Last Name*</p>
+					<p><input type="text" name="lastname"></p>
+				</div>
+				<div id="single">Single:
+						<input type="radio" name="Sex" value="Men">Sigle
+						<input type="radio" name="Sex" value="Girl" checked>Maried
+						<input type="radio" name="Sex" value="Buedur">Student
+				</div>
+				<div>
+					<p id="address">Email address*</p>
+					<p><input type="text" name="email" placeholder="Your email"></p>
+					<p id="password2">Password*</p>
+					<p><input type="password" name="password" placeholder="Your password"></p>
+					<p id="submit">
+				</div>
+				<div>
+					<input type="button" name="button" value="REGISTER">
+				</div>
+			</div>
+		</article>
+	</form>
+</body>
+</html>

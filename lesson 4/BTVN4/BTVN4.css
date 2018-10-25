@@ -1,42 +1,8 @@
-@media screen and (max-width: 1200px){
-	#action{
-		width: 60%;
-	}
-	#feature{
-		width: 60%;
-	}
-	#hero{
-		width: 60%;
-	}
-}
 @media screen and (max-width: 768px){
-	#action{
-	float: left;		
-	border: 2px solid red;
-	width: 40%;		
-}	
-	#feature
-	{
-	float: left;
-	border: 2px solid red;
-	width: 200%;
-	 }
-	#hero	{
-	float: left;
-	border: 2px solid red;
-	width: 40%;
+	body{
+		background: green;
 	}
-	#ads{
-	background: blue;
-    width: 73.6%;
-    height: 161px;
-    text-align: center;
-    line-height: 161px;
-    margin-left: 9.5%;
-    margin-top: 3.8%;
-    float: left;
 
-	}
 }
 body{
 	padding: 80px;
@@ -89,6 +55,7 @@ body{
 	text-align: center;
 	line-height: 123px;
 	margin-left: 1%;
+	margin:auto;
 }
 #feauture{
 	background: blue;
@@ -157,4 +124,18 @@ article{
 	line-height: 161px;
 	margin-left: 73.5%;
 	margin-top: -22.2%;
+}
+footer{
+	height: 38px;
+    margin-top: 7px;
+    width: 98.3%;
+    text-align: center;
+    background: lightblue;
+    line-height: 38px;
+}
+section{
+	background: white;
+	height: 520px;
+	width: 100%;
+	padding: 20px;
 }

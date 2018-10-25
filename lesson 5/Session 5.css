@@ -1,0 +1,18 @@
+ul li:nth-child(1){
+	list-style-type: circle;
+}
+ol li:nth-child(4){
+	list-style-type: square;
+}
+ol{
+	list-style-type: circle;
+}
+a{
+	text-decoration: overline;
+}
+a:hover{
+	color: orange;
+}
+a:visited{
+	color: red;
+}

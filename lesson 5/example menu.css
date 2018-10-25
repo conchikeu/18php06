@@ -1,0 +1,79 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	padding: 20px;
+}
+ul, li{
+	list-style-type: none;
+
+}
+#home{
+	border: 2px solid blue;
+}
+#ticket{
+	border: 2px solid blue;
+}
+#become{
+	border: 2px solid blue;
+}
+#about{
+	border: 2px solid blue;
+}
+#home, #ticket, #become, #about{
+	margin-top: 2px;
+	width: 200px;
+	font-size: 20px;
+	padding-left: 20px;
+	font-weight: bold;
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	color: red;
+}
+/* a:visited{
+	color: orange;
+} */
+div{
+	font-size: 40px;
+	font-weight: bold;
+}
+#home1{
+	border: 2px solid white;
+}
+#ticket1{
+	border: 2px solid white;
+}
+#become1{
+	border: 2px solid white;
+}
+#about1{
+	border: 2px solid white;
+}
+#home1, #ticket1, #become1, #about1{
+/* 	margin-top: 2px; */
+	width: 200px;
+	font-size: 20px;
+	font-weight: bold;
+	float: left;
+	padding: 2px;
+	text-align: center;
+	margin-top: 0.3%;
+	margin-left: 0.5%;
+}
+nav{
+	background: lightgreen;
+	height: 37px;
+	width: 54.5%;
+}
+table{
+	border:  2px solid black;
+	width: 50%;
+}
+td, th{
+	border:2px solid black;
+	text-align: center;
+}
