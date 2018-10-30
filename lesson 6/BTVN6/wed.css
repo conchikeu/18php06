@@ -1,0 +1,284 @@
+/* -----------Header-------------- */
+*{
+	margin: 0;
+	padding: 0;
+}
+/* body{
+	padding: 25px;
+} */
+section{
+	padding: 2px;
+	padding: 25px;
+}
+ul, li{
+	list-style-type: none;
+}
+a{
+	text-decoration: none;
+	font-weight: bold;
+}
+#img1{
+	width: 100%;
+}
+#home, #about, #htbuy, #contact{
+	float: left;
+	width: 25%;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	background: lightgray;
+	font-size: 25px;
+	font-weight: bold;
+	text-align: center;
+}
+#banner{
+	width: 100%;
+	box-shadow: 10px 10px 8px 10px #888888;
+}
+a:hover{
+	color: red;
+}
+/* a:link{
+	color: black;
+} */
+/* a:visited{
+	color: black;
+} */
+#menu1, #laptop2, #samsungtag{
+	    color: white;
+}
+
+/* ------------nav------------- */
+nav{
+	width: 20%;
+}
+#menu{
+	line-height: 52px;
+}
+#mennu{
+	margin-top: 15px;
+	float: left;
+	background: red;
+	font-size: 30px;
+	width: 100%;
+	height: 50px;
+}
+#menu1{
+	margin-top: -52px;
+	text-align: center;
+	font-weight: bold;
+}
+#laptop{
+	line-height: 52px;
+}
+#laptop1{
+	margin-top: 2px;
+	float: left;
+	background: red;
+	font-size: 30px;
+	width: 100%;
+	height: 50px;
+}
+#laptop2{
+	margin-top: -52px;
+	text-align: center;
+	font-weight: bold;
+}
+#button2{
+	width: 100%;
+	height: 50px;
+	font-size: 20px;
+}
+/* -------------Article------------ */
+article{
+	float: right;
+    margin-right: 14.5%;
+    width: 65%;
+    margin-top: -1124.5px;
+}
+#newcommers{
+	font-size: 25px;
+	font-weight: bold;
+	margin-bottom: 25px;
+	color: red;
+}
+#samsunglogo{
+	background: red;
+	font-size: 30px;
+}
+#samsungtag{
+	margin-left: 42px;
+    margin-top: -39px;
+}
+#laptop123{
+	margin-top: 1%;
+}
+#lap1{
+	float: left;
+	width: 28%;
+	border: 2px solid gray;
+	margin-left: 3.7%;
+}
+#acer{
+    width: 100%;
+}
+#acername{
+	text-align: center;
+}
+#acerprice{
+	font-weight: bold;
+	color: red;
+	text-align: center;
+}
+#aceroldprice{
+	color: gray;
+	text-decoration: line-through;
+	font-size: 11px;
+	text-align: center;
+}
+/* -------------footer------------ */
+footer{
+	float: right;
+    margin-right: 14.5%;
+    width: 65%;
+    margin-top: -588px;
+    border-top: 2px dashed gray;
+}
+#newgirl{
+	font-size: 25px;
+	font-weight: bold;
+	padding-top: 27px;
+	color: red;
+}
+#girlicon{
+	margin-top: 25px;
+	font-size: 30px;
+	background: red;
+	width: 100%;
+}
+#girlsell{
+	margin-left: 42px;
+    margin-top: -39px;
+    color: white;
+}
+#hotgirl{
+	border: 2px solid black;
+}
+#hotgirl1{
+	float: left;
+	border: 2px solid gray;
+	margin-left: 2.2%;
+	margin-top: 1%;
+}
+#girlprice{
+	text-align: center;
+	font-weight: bold;
+}
+#girl3price{
+	color: red;
+	text-align: center;
+}
+#girl3old{
+	color: gray;
+	text-decoration: line-through;
+	font-size: 20px;
+	font-size: 11px;
+	text-align: center;
+	padding-bottom: 10px;
+}
+#more2, #more{
+	float: right;
+	padding-top: 5px;
+}
+/* -------------aside------------ */
+aside{
+	float: right;
+    width: 14%;
+    margin-top: -1122px;
+    margin-right: -79.5%
+}
+#tableside, #tableside2, #tableside3{
+	border: 2px solid gray;
+	margin-bottom: 10%;
+}
+#login, #search, #create{
+	font-size: 25px;
+	text-align: center;
+	font-weight: bold;
+	background: red;
+	padding: 5px 0px 5px 0px;
+}
+#username, #password, .input1, #searchbox, #wanna{
+	padding: 10px 0px 0px 5px;
+	font-weight: bold;
+
+}
+#login1, #searchsubmit{
+	padding: 10px 0px 10px 0px;
+	font-weight: bold;
+	text-align: center;
+}
+#sex, #youare{
+	padding: 15px 0px 0px 0px;
+	font-weight: bold;
+}
+#forget{
+	text-align: center;
+	padding-bottom: 5px;
+}
+.input1{
+	margin-left: 11%;
+}
+#city{
+	padding: 10px 0 10px 0;
+	font-weight: bold;
+}
+
+/* -------------moredetails------------ */
+#details{
+	border-top: 5px solid red;
+	margin-top: 30px;
+
+}
+#freeship, #support, #payment{
+	float: left;
+	width: 33.22%;
+	height: 36px;
+	padding: 15px 0 0 0;
+	background: lightgray;
+	font-size: 25px;
+	font-weight: bold;
+	border: 1px solid gray;
+}
+#detailsicon{
+	margin-top: -3%;
+    float: left;
+    margin-left: 35%;
+}
+#listship{
+	margin-left: 12%;
+    margin-top: 5%;
+}
+#support24{
+	margin-left: 45.5%;
+    margin-top:-5.36%;
+}
+#listpay{
+	margin-left: 79%;
+    margin-top:-5.36%;
+}
+#listbank{
+	margin-left: 30%;
+    margin-top: 3%;
+}
+#ending{
+	height: 70px;
+	padding-left: 10%;
+	background: lightgray;
+}
+#coop{
+	padding-bottom: 5px;
+}
+#chinhanh{
+	margin-left: 50%;
+    margin-top: -2%;
+}
