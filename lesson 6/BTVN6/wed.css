@@ -282,3 +282,28 @@ aside{
 	margin-left: 50%;
     margin-top: -2%;
 }
+@media screen and (max-width: 1200px){
+	#hotgirl1{
+		float: left;
+		border: 2px solid gray;
+		margin-left: 11.2%;
+		margin-top: 1%;
+		}	
+	#details{
+		margin-top: 40%;
+	}
+	footer{
+		margin-top: -709px;
+	}
+	#freeship, #support, #payment {
+		width: 33.16%;
+	}
+	#ending {
+		padding-left: 2%;
+	}
+	#chinhanh {
+    margin-left: 44%;
+    margin-top: -6%;
+}
+	}	
+	

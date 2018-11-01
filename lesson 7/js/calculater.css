@@ -1,0 +1,40 @@
+body{
+	width: 480px;
+	height: 720px;
+	text-align: center;
+	margin: auto;
+	margin-top: 5%;
+}	
+td{
+	border: 2px solid black;
+	font-size: 40px;
+	width: 100px;
+	height: 100px;
+	margin: 0;
+	padding: 0;
+}
+#number0, .calssid{
+	width: 100%;
+    height: 100%;
+	font-size: 40px;
+}
+.calssid1{
+	color: black;
+	width: 100%;
+    height: 100%;
+	font-size: 40px;
+	background: orange;
+}
+
+#table1{
+	border: 2px solid black;
+	width: 89%;
+}
+#Result1{
+	width: 97%;
+    height: 60px;
+    font-size: 50px;
+    border: 2px solid black;
+    margin: 3px;
+    text-align: right;
+}
