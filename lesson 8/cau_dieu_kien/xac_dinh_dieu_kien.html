@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script type="text/javascript">
+		var number = 5;
+		var string = "Hello!";
+		var boolean = true;
+		var object = {};
+		var array = [];
+		var undifined = undifined;
+		var myNull = null;
+
+		function myType(abc){
+			var type = typeof abc;
+			if(type != "object"){
+				return type;
+			} else if (abc instanceof Array){
+				return "array";
+			} else if (abc == null){
+				return "null";
+			} else {
+				return "object";
+			}
+		}
+
+		document.write(number + " : " + myType(number) + "</br>");
+		document.write(string + " : " + myType(string) + "</br>");
+		document.write(boolean + " : " + myType(boolean) + "</br>");
+		document.write(object + " : " + myType(object) + "</br>");
+		document.write(array + " : " + myType(array) + "</br>");
+		document.write(undifined + " : " + myType(undifined) + "</br>");
+		document.write(myNull + " : " + myType(myNull) + "</br>");
+
+	</script>
+</head>
+<body>
+
+</body>
+</html>

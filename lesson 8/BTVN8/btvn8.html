@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>BTVN 8</title>
+	<script>
+	function clickHere(){
+		var myName = document.getElementById('myName').value;
+		var count = 0;
+		var spaceCount = 0 ;
+		var firstSpace = myName.indexOf(" ");
+		var colorName = myName.indexOf("n");
+		var lastSpace = myName.lastIndexOf(" ")
+		var lastName = myName.slice(lastSpace);
+		var firstName = myName.slice(0, firstSpace);
+		var middleName = myName.slice(firstSpace, lastSpace);
+		var name = myName.slice(lastName, firstName);
+			for (i = 0; i < myName.length; i++){
+		        if (myName.indexOf('a', i) == i) {
+		            count += 1;
+		        } else if (myName.indexOf(' ', i) == i){
+					spaceCount += 1;
+				}
+				document.getElementById('showName').style.color = 'blue';
+				document.getElementById('showName').innerHTML = (count + " 'a' in your name") + " And " + ((myName.length - spaceCount) + " words in your name without space");
+				document.getElementById('changeTo18php06').innerHTML = (myName.substr(0, lastSpace) + " 18PHP06");
+				document.getElementById('boldFirstName').innerHTML = (firstName.toUpperCase() + lastName);
+				document.getElementById('boldLastName').innerHTML = (firstName + lastName.toUpperCase());
+				document.getElementById('boldMiddleName').innerHTML = (firstName + middleName.toUpperCase() + lastName);
+		   		}
+			}
+
+
+
+	</script>
+</head>
+<body>
+	<p id = "showName">How many 'a' ? And How many words without space?</p>
+	<p><input type="text" name = "myName" value="" id="myName"></p>
+	<p><input type="button" name = "button1" id="button1" value="Submit" onclick="clickHere()"></p>
+	<p id="boldFirstName"> Bold First Name</p>
+	<p id="boldLastName"> Bold Last Name</p>
+	<p id="boldMiddleName"> Bold Middle Name</p>
+	<p id="changeTo18php06">Change last Name to 18php06</p>
+	<p></p>
+</body>
+</html>

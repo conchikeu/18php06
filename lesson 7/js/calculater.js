@@ -9,3 +9,5 @@
 // 		if (logid == 'X')
 // 		console.log(logid);
 // }
+var result = 0;
+document.getElementById('Result1').innerHTML = Result1;
