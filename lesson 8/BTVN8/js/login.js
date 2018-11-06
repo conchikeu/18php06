@@ -9,6 +9,8 @@ function login() {
 	}
 	else if (username != '' && password != '') {
 		document.getElementById('success').innerHTML = 'Login Success!';
+		document.getElementById('inputUsername').innerHTML = '';
+		document.getElementById('inputPassword').innerHTML = '';
 	}
 	console.log(username);
 	console.log(password);

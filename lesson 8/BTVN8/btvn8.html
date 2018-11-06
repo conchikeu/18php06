@@ -26,9 +26,12 @@
 				document.getElementById('boldFirstName').innerHTML = (firstName.toUpperCase() + lastName);
 				document.getElementById('boldLastName').innerHTML = (firstName + lastName.toUpperCase());
 				document.getElementById('boldMiddleName').innerHTML = (firstName + middleName.toUpperCase() + lastName);
+				
 		   		}
 			}
-
+	function reload(){
+		location.reload();
+	}
 
 
 	</script>
@@ -37,6 +40,7 @@
 	<p id = "showName">How many 'a' ? And How many words without space?</p>
 	<p><input type="text" name = "myName" value="" id="myName"></p>
 	<p><input type="button" name = "button1" id="button1" value="Submit" onclick="clickHere()"></p>
+	<p><input type="button" name = "button2" id="button2" value="Reload page" onclick="reload()"></p>
 	<p id="boldFirstName"> Bold First Name</p>
 	<p id="boldLastName"> Bold Last Name</p>
 	<p id="boldMiddleName"> Bold Middle Name</p>
