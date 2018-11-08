@@ -2,7 +2,22 @@
 <html lang="en">
 <head>
 	<title>BTVN 8</title>
+	<script src="js/jquery-3.3.1.min.js" type="text/javascript"></script>
+	
+</head>
+<body>
+	<p id = "showName">How many 'a' ? And How many words without space?</p>
+	<p><input type="text" name = "myName" value="" id="myName"></p>
+	<p><input type="button" name = "button1" id="button1" value="Submit" onclick="clickHere()"></p>
+	<p><input type="button" name = "button2" id="button2" value="Reload page" onclick="reload()"></p>
+	<p id="boldFirstName"> Bold First Name</p>
+	<p id="boldLastName"> Bold Last Name</p>
+	<p id="boldMiddleName"> Bold Middle Name</p>
+	<p id="changeTo18php06">Change last Name to 18php06</p>
+	<p></p>
 	<script>
+	
+
 	function clickHere(){
 		var myName = document.getElementById('myName').value;
 		var count = 0;
@@ -35,16 +50,5 @@
 
 
 	</script>
-</head>
-<body>
-	<p id = "showName">How many 'a' ? And How many words without space?</p>
-	<p><input type="text" name = "myName" value="" id="myName"></p>
-	<p><input type="button" name = "button1" id="button1" value="Submit" onclick="clickHere()"></p>
-	<p><input type="button" name = "button2" id="button2" value="Reload page" onclick="reload()"></p>
-	<p id="boldFirstName"> Bold First Name</p>
-	<p id="boldLastName"> Bold Last Name</p>
-	<p id="boldMiddleName"> Bold Middle Name</p>
-	<p id="changeTo18php06">Change last Name to 18php06</p>
-	<p></p>
 </body>
 </html>
