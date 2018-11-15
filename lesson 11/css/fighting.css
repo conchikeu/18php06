@@ -1,0 +1,273 @@
+
+*{
+	padding:  0;
+	margin:  0;
+}
+body{
+	width: 1240px;
+}
+#bodySon{
+	margin: auto;
+}
+a{
+	text-decoration: none;
+}
+a:visited{
+	color:red;
+}
+a:hover{
+	color: blue;
+}
+
+#backgroundLogo{
+	background: black;
+	width: 100%;
+	height: 100px;
+}
+h1{
+	margin: auto;
+	text-align: center;
+}
+#loginForm{
+	max-width: 45%;
+    margin-top: -31%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.loginInfo{    
+	padding: 16px;
+    font-size: 21px;
+    max-width: 100%;
+}
+#searchBox1{
+    width: 100%;
+    padding: 1%;
+    text-align: center;
+}
+#receptionButton{
+    background: black;
+    color: darkgoldenrod;
+    width: 100%;
+    height: 74px;
+    font-size: 29px;
+    font-weight: bold;
+}
+#wellcome{
+    margin-top: -5%;
+    padding-left: 2%;
+    color: white;
+    font-size: 13px;
+}
+#loginButton{
+    margin-top: -2.2%;
+    float: right;
+    background: black;
+    font-size: 20px;
+    width: 12%;
+	height: 34%;
+	margin-right: 3%;
+	color: darksalmon;
+	font-weight: bold;
+}
+#quoteParent{
+	position: relative;
+}
+#quote{
+	position: absolute;
+}
+/* -------------------Nav------------------- */
+nav{
+    background: violet;
+    height: 602px;
+    margin-top: 17%;
+}
+li{
+	list-style-type: none;
+}
+.liClass1{
+	float: left;
+	padding: 1% 0 1% 6.5%;
+	font-size: 20px;
+	font-weight: bold;
+	color: yellowgreen;
+
+}
+.liClass2{
+    float: left;
+	padding: 76px 0 0 16%;
+    font-size: 21px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#backgroundLogo2{
+	width: 100%;
+	height: 655px;
+}
+#prices{
+	text-align: center;
+	padding-top: 6%;
+	font-size: 50px;
+	font-weight: bold;
+}
+/* --------------------------Section---------------------------- */
+section{
+	height: 574px;
+	background: lightgoldenrodyellow;
+}
+#fromUs{
+	    text-align: center;
+    font-size: 38px;
+    font-weight: bold;
+    padding-top: 2%;
+}
+.cooktail{
+    float: left;
+    padding: 27px 0 27px 0;
+    width: 33.33%;
+    text-align: center;
+}
+.cooktailPrice, .cooktailName{
+	font-weight: bold;
+	font-size: 20px;
+	padding-top: 1%;
+}
+.cooktailPrice{
+	color: red;
+}
+#showAll{
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+}
+#showAllBackGround{
+    float: left;
+    font-size: 30px;
+    padding: 1%;
+    margin-left: 44%;
+    background: darkgoldenrod;
+    margin-bottom: 2%;
+}
+/* -----------------------------artice------------------------------------ */
+#sectionBackGround-small-2{
+	position: relative;
+}
+/* -----------------------------aside------------------------------------ */
+#background2{
+	width: 100%;
+}
+#goodServics{
+    text-align: center;
+    margin-top: -38%;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+}
+.cooktailServics{
+    width: 32.5%;
+    text-align: center;
+    margin-top: -37%;
+	position: absolute;
+}
+#cooktailServics1{
+    left: 20%;
+	position: absolute;
+}
+#cooktailServics2{
+
+	position: absolute;
+	right: -92%;
+}
+#cooktailServics3{
+	position: absolute;
+	left: 211%;
+}
+#contain1{
+	left: -22%;
+    position: relative;
+}
+#contain2{
+	position: relative;
+	left: 83%;
+}
+#contain3{
+	position: relative;
+    right: -174%;
+}
+#contain1, #contain2, #contain3{
+    color: white;
+    padding-bottom: 2%;
+}
+/* ----------------------------Footer------------------------------
+ */	
+ footer{
+ 	width: 100%;
+ }
+ .videoPadding{
+ 	padding: 3%;
+ }
+ .prev, .next {
+  cursor: pointer;
+  position: absolute;
+  margin-top: -13%;
+}
+.next{
+	right: 0%;
+}
+ #videoFooter{
+ 	text-align: center;
+ }
+ #tutorialVideo{
+ 	padding-top: 4%;
+ 	font-size: 40px;
+ 	font-weight: bold
+ }
+ table, td{
+ 	border: 2px solid black;
+ }
+ #footerBottom{
+ 	background: lightgoldenrodyellow;
+    height: 400px;
+    width: 100%;
+ }
+ .footerList1{
+ 	float: left;
+ }
+.footerListAlign{
+    float: left;
+    padding: 6% 0 0 19%;
+}
+#endFooter{
+	background: black;
+	height: 300px;
+	width:100%;
+}
+#iframeVideo{
+	margin-left: 68%;
+    margin-top: -12%;
+}
+#quote{
+	margin-top: 553px;
+    margin-left: 1000px;
+   	background: white;
+    border-radius: 63%;
+    opacity: 0.8;
+    float: left;
+}
+#footerLogo{
+    margin-top: 27px;
+    margin-left: 85px;
+}
+#h2{
+	color: white;
+}
+dir{
+	width: 25%;
+    margin-left: 25%;
+    margin-top: -60px;	
+    font-size: 2px;
+}
+span{
+	color: white;
+
+}
