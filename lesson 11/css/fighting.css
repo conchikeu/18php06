@@ -34,8 +34,7 @@ h1{
     margin-left: auto;
     margin-right: auto;
 }
-.loginInfo{    
-	padding: 16px;
+.loginInfo{
     font-size: 21px;
     max-width: 100%;
 }
@@ -86,7 +85,7 @@ li{
 }
 .liClass1{
 	float: left;
-	padding: 1% 0 1% 6.5%;
+	padding: 1% 0 1% 5.5%;
 	font-size: 20px;
 	font-weight: bold;
 	color: yellowgreen;
@@ -244,7 +243,7 @@ section{
 }
 #iframeVideo{
 	margin-left: 68%;
-    margin-top: -12%;
+    margin-top: -5%;
 }
 #quote{
 	margin-top: 553px;
