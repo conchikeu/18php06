@@ -1,0 +1,559 @@
+*{
+	padding:  0;
+	margin: 0;
+}
+li{
+	list-style-type: none;
+	text-transform: uppercase;
+}
+a{
+	text-decoration: none;
+}
+.tittle-details{
+	color: black;
+}
+body{
+	margin: auto;
+}
+#logo1{
+    width: 113px;
+    height: auto;
+    margin-top: 1%;
+}
+#header-Container, #header-list{
+	padding:  0 300px 0 300px;
+}
+#logIn-And-Create-Icon{
+ 	background: black;
+	text-align: center;
+	height: 90px;
+}
+#button1, #button2{
+	background: black;
+    border: 2px solid gray;
+    padding: 3px 35px;
+    font-size: 19px;
+    color:  gray;
+}
+#button1{
+	margin-right: 15px;
+}
+#twoButton{
+    float: right;
+    margin-top: -3.5%;
+}
+#welcomeText{
+	float: left;
+    margin-top: -3%;
+    font-size: 24px;
+    color: white;
+}
+.header-list-class{
+    display: inline-block;
+    padding: 2% 2.4%;
+    font-weight: bold;
+    font-size: 17px;
+}
+/* ------------------------banner-slide------------------------------- */
+.banner-slide{
+	max-width: 100%;
+	position: relative;
+	margin: auto;
+    margin-top: -1%;
+}
+.img-banner{
+	width: 100%;
+}
+.prev, .next{
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  color: blue;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+.next{
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.prev:hover, .next:hover {
+  background-color: #f1f1f1;
+  color: black;
+}
+.next{
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.fade1{
+  -webkit-animation-name: fade1;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade1;
+  animation-duration: 1.5s;
+}
+@-webkit-keyframes fade1{
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+@keyframes fade{
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+#h1{
+    position: absolute;
+    margin-top: -35%;
+    color: white;
+    font-size: 55px;
+    font-weight: bold;
+}
+#input-Phone-Number{
+    text-align: center;
+    border: 2px solid transparent;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0%;
+    right: 0%;
+    width: 100%;
+    bottom: 0%;
+}
+#phone{
+    border: 1px solid transparent;
+    height: 50px;
+    position: relative;
+    width: 30%;
+    display: flex;
+    margin: auto;
+}
+.phone2{
+	font-size: 30px;
+}
+#resvastion{
+    background: black;
+    width: 30%;
+    margin: auto;
+    height: 50px;
+    text-align: center;
+    font-weight: bold;
+    color: #D5A353;
+    font-size: 25px;
+
+}
+/* --------------------------Contact----------------------------- */
+#contact-banner{
+	background: #525252;
+}
+#row{
+	display: flex;
+}
+#row-special{
+	border-right: 2px solid gray;
+	border-left: 2px solid gray;
+}
+.row{
+    font-size: 18px;
+    font-weight: bold;
+   	padding: 0 7%;
+    text-align: center;
+    margin: 1% 0;
+}
+.contact-tittle{
+	color:#D5A353;
+}
+p{
+	color: white;
+}
+/* ---------------------------Prices------------------------ */
+.h333{
+	text-align: center;
+	font-weight: bold;
+	font-size: 40px;
+	padding-top: 3%;
+}
+.list-combo{
+	text-align: center;
+	display: flex;
+	font-weight: bold;
+	font-size: 15px;
+	padding-top: 5%;
+}
+ul{
+	margin: auto;
+}
+li{
+	padding-top: 5%;
+
+}
+.prices{
+	font-size: 30px;
+}
+/* ---------------------------Prodution----------------------------------- */
+#background-prodution{
+	background-image: url('../image/img-bg123.png');
+    width: 100%;
+    height: 710px;
+}
+.slide-prices{
+	text-align: center;
+	color: #D5A353;
+	font-weight: bold;
+	font-size: 30px;
+}
+.fade2{
+	text-align: center;
+	padding-top: 3%;
+}
+.gel-boi{
+	color: black;
+	font-size: 20px;
+	font-weight: bold;
+	padding-top: 2%;
+}
+#button-see-more{
+	text-align: center;
+}
+.see-more{
+	background: #D5A353;
+    padding: 1% 2%;
+    font-size: 22px;
+    font-weight: bold;
+    color: black;
+}
+/* ---------------------More-production--------------------------- */
+#blackground-more-productions{
+	background-image: url('../image/img-bg-1.png');
+	width: 100%;
+	height: 600px;
+}
+#h33{
+	text-align: center;
+	font-weight: bold;
+	font-size: 40px;
+	padding-top: 3%;
+	color: white;
+}
+#more-services-images{
+	display: flex;
+}
+.more-services-images-algin{
+	width: 100%;
+}
+.cut-everything{
+	font-weight: bold;
+	font-size: 20px;
+}
+.descript-tion{
+	font-weight: bold;
+	font-size: 15px;
+	padding-top: 3%;
+}
+#button-see-more-2{
+	text-align: center;
+	padding-top: 5%;
+}
+/* -----------------Video---------------------- */
+#clip-barber-shop{
+	width: 100%;
+	height: 500px;
+}
+#h3333{
+	text-align: center;
+	font-weight: bold;
+	font-size: 40px;
+	padding-top: 3%;
+}
+#image-clip-tv{
+	display: flex;
+}
+.clip-barber-images{
+	width: 100%;
+	height: 300px;
+    padding: 3% 6% 0 6%;
+}
+.barber-magic-clip{
+	color: black;
+	font-weight: bold;
+	padding: 3% 6% 0 6%;
+	font-size: 18px;
+	letter-spacing: -0.68px;
+}
+/* ----------------table-barber-and-table--------------- */
+#table-barber-and-table{
+	width: 100%;
+	height: 500px;
+	background: #F9F6F2;
+}
+#table-align-barber{
+	display: flex;
+}
+.barbar-talbe-and-store{
+	color: black;
+	font-weight: bold;
+	padding: 15% 0 0 2%;
+
+}
+.algin-table-and-store-barber{
+	margin: auto;
+}
+.time-table{
+	background: white;
+	width: 100%;
+	height: 250px;
+}
+#time-table-list{
+	display: flex;
+}
+.time-table-list{
+	margin: auto;
+	font-weight: bold;
+	font-size: 30px;
+}
+/* -------------------footer----------------------- */
+footer{
+    width: 100%;
+    background: black;
+    height: 250px;
+}
+#iframe-facebook{
+    margin-top: -18%;
+	text-align: right;
+}
+.footer-logo{
+	width: 113px;
+    height: auto;
+    margin-bottom: 15px;
+}
+.footer-tag{
+	color: gray;
+}
+#img-logo-minaworks{
+    width: 80px;
+    height: auto;
+    margin-left: 5px;
+}
+#footer-align-logo{
+	padding-top: 2%;
+}
+#align-footer-text{
+	margin-top: -14%;
+    margin-left: 24%;
+    font-size: 14px;
+}
+.style-footer-text{
+	color: gray;
+	font-size: 13px;
+}
+/*---------------------------*/
+.slicknav_menu{
+	display: none;
+}
+/* ------------------Responsive-------------------- */
+@media only screen and (max-width: 1387px) {
+	#twoButton {
+	    margin-top: -4%;
+    	margin-right: -5%;
+	}
+	#welcomeText{
+		margin-top: -4%;
+    	margin-left: -2%;
+	}
+	#header-Container, #header-list{
+	    padding: 0 50px;
+	}
+	#input-Phone-Number{
+		bottom: 20%;
+	}
+}
+@media only screen and (max-width: 1366px) {
+	#welcomeText{
+	    margin-left: -1%;
+    	margin-top: -4%;
+	}
+	#twoButton{
+		margin-right: 0%;
+    	margin-top: -4%;
+	}
+	#header-list{
+	    padding: 0 50px;
+	}
+	.header-list-class{
+		font-size: 16px;
+	}
+	#h1{
+		margin-top: -30%;
+   	 	font-size: 40px;
+	}
+	#input-Phone-Number{
+		bottom: 28%;
+	}
+}
+@media only screen and (max-width: 1280px) {
+	#welcomeText {
+        margin-left: 0%;
+    	margin-top: -4%;
+
+	}
+	#twoButton {
+		margin-top: -3.5%;
+   		margin-right: 0%;
+	}
+	#input-Phone-Number{
+	    bottom: 40%;
+	}
+	.header-list-class {
+		font-size: 19px;
+    	padding-left: 0;
+	}
+	.img-banner {
+	    height: 500px;
+	}
+}
+@media only screen and (max-width: 1201px) {
+	#welcomeText {
+	    margin-left: 0%;
+    	margin-top: -4%;
+	}
+	#header-list{
+		padding: 0 100px 0 100px;
+	}
+	#twoButton {
+	    margin-top: -4%;
+    	margin-right: -3%;
+	}
+	#input-Phone-Number{
+	    bottom: 40%;
+	}
+	.header-list-class {
+	    font-size: 18px;
+	}
+	.img-banner {
+	    height: 500px;
+	}
+	.prev, .next{
+
+	}
+}
+@media only screen and (max-width: 1080px) {
+	.more-services-images-algin2, .descript-tion{
+		width: 100%;
+	    padding: 0 5%;
+	}
+	#header-list{
+	    padding: 0 50px 0 50px;
+	}
+	.header-list-class{
+		font-size: 16px;
+	}
+	#input-Phone-Number{
+	    bottom: 40%;
+	}
+	#iframe-facebook{
+	    margin-top: -22%;
+    	margin-right: -6%;
+	}
+	.style-footer-text{
+	    font-size: 10px;
+   		margin-left: 4%;
+	}
+}
+@media only screen and (max-width: 1024px) {
+	#header-list{
+		padding: 0 50px;
+	}
+	.header-list-class{
+	    font-size: 16px;
+	}
+	#iframe-facebook{
+	    margin-right: 0;
+        margin-top: -24%;
+	}
+	.style-footer-text{
+		font-size: 10px;
+    	margin-left: -1%;
+	}
+	#alone-clip-barber{
+		font-size: 11px;
+   	 	margin-left: -1%;
+	}
+	.footer-tag{
+		font-size: 12px;
+    	margin-top: 2%;
+	}
+}
+.toggle{
+	width: 100%;
+	padding: 10px 20px;
+	background: gray;
+	text-align: right;
+	box-sizing: border-box;
+	display: none;
+}
+@media only screen and (max-width: 780px) {
+	*{
+		margin: 0;
+		padding: 0;
+	}
+	#logIn-And-Create-Icon{
+		height: 57px;
+	}
+	#welcomeText{
+		font-size: 18px;
+		margin-left: 0%;
+	}
+	#logo1{
+	    width: 72px;
+	}
+	#button1, #button2{
+		font-size: 14px;
+	    padding: 0;
+	}
+	#h1{
+	    font-size: 25px;
+    	margin-left: 5%;
+	}
+	.img-banner{
+	    height: 343px;
+	}
+	#header-list{
+	    padding: 0 2%;
+	}
+	.header-list-class{
+		font-size: 13px;
+		display: none;
+	}
+	#input-Phone-Number{
+		bottom: 60%;
+		display: none;
+	}
+	#phone, #resvastion{
+	    height: 30px;
+    	width: 50%;
+	}
+	.slicknav_menu{
+	display: block;
+	
+	}
+	.row{
+	    height: 60px;
+    	font-size: 11px;
+    	padding: 0 8%;
+	}
+	#iframe-facebook{
+	    width: 100%;
+	    margin-top: 2%;
+	    text-align: center;
+	    background: gray;
+	}
+	.container{
+		width: 100%;
+	}
+	#alone-clip-barber{
+		margin-left: 10%;
+	}
+	.style-footer-text{
+		margin-left: 10%;
+	}
+}

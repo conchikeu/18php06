@@ -76,7 +76,7 @@ h1{
 }
 /* -------------------Nav------------------- */
 nav{
-    background: violet;
+    background-image: url('image/backGround2.png');
     height: 602px;
     margin-top: 17%;
 }
@@ -148,125 +148,8 @@ section{
     margin-bottom: 2%;
 }
 /* -----------------------------artice------------------------------------ */
-#sectionBackGround-small-2{
-	position: relative;
-}
-/* -----------------------------aside------------------------------------ */
-#background2{
-	width: 100%;
-}
-#goodServics{
-    text-align: center;
-    margin-top: -38%;
-    color: white;
-    font-size: 40px;
-    font-weight: bold;
-}
-.cooktailServics{
-    width: 32.5%;
-    text-align: center;
-    margin-top: -37%;
-	position: absolute;
-}
-#cooktailServics1{
-    left: 20%;
-	position: absolute;
-}
-#cooktailServics2{
-
-	position: absolute;
-	right: -92%;
-}
-#cooktailServics3{
-	position: absolute;
-	left: 211%;
-}
-#contain1{
-	left: -22%;
-    position: relative;
-}
-#contain2{
-	position: relative;
-	left: 83%;
-}
-#contain3{
-	position: relative;
-    right: -174%;
-}
-#contain1, #contain2, #contain3{
-    color: white;
-    padding-bottom: 2%;
-}
-/* ----------------------------Footer------------------------------
- */	
- footer{
- 	width: 100%;
- }
- .videoPadding{
- 	padding: 3%;
- }
- .prev, .next {
-  cursor: pointer;
-  position: absolute;
-  margin-top: -13%;
-}
-.next{
-	right: 0%;
-}
- #videoFooter{
- 	text-align: center;
- }
- #tutorialVideo{
- 	padding-top: 4%;
- 	font-size: 40px;
- 	font-weight: bold
- }
- table, td{
- 	border: 2px solid black;
- }
- #footerBottom{
- 	background: lightgoldenrodyellow;
-    height: 400px;
+/* #article1{
     width: 100%;
- }
- .footerList1{
- 	float: left;
- }
-.footerListAlign{
-    float: left;
-    padding: 6% 0 0 19%;
-}
-#endFooter{
-	background: black;
-	height: 300px;
-	width:100%;
-}
-#iframeVideo{
-	margin-left: 68%;
-    margin-top: -5%;
-}
-#quote{
-	margin-top: 553px;
-    margin-left: 1000px;
-   	background: white;
-    border-radius: 63%;
-    opacity: 0.8;
-    float: left;
-}
-#footerLogo{
-    margin-top: 27px;
-    margin-left: 85px;
-}
-#h2{
-	color: white;
-}
-dir{
-	width: 25%;
-    margin-left: 25%;
-    margin-top: -60px;	
-    font-size: 2px;
-}
-span{
-	color: white;
-
-}
+    height: 500px;
+   background-image: url('image/backGround2.png');
+} */
